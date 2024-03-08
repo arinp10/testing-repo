@@ -258,7 +258,7 @@ def main():
                 if 'clicked_feedback_button' not in st.session_state:
                     st.session_state.clicked_feedback_button = False
                
-                if missing_skills is not None and missing_skills:
+                if missing_skills is not None:
                     st.subheader('Missing Skills')
                     st.write(missing_skills)
                     st.session_state.missing_skills = missing_skills
